@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
+import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -23,6 +24,25 @@ const App = () => {
   );
 };
 
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <App/>,
+        errorElement: <App/>, //přepsat na <ErrorPage /> až bude hotová
+        children: [
+            {
+                path: '/',
+                element: <App />, //přepsat na <HomePage /> až bude hotová
+            },
+            {
+                path: 'about',
+                element: <App />, //přepsat na <AboutPage /> až bude hotová
+            },
+        ],
+    },
+]);
+
+
 createRoot(
   document.querySelector('#app'),
-).render(<App />);
+).render(<RouterProvider={router} />);
