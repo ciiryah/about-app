@@ -2,14 +2,12 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
 import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
+import {Header} from "./components/Header";
 
 const App = () => {
   return (
     <div className="container">
-      <header>
-        <div className="logo" />
-        <h1>React webová aplikace</h1>
-      </header>
+      <Header />
       <main>
         <p>
           Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
@@ -45,4 +43,4 @@ const router = createBrowserRouter([
 
 createRoot(
   document.querySelector('#app'),
-).render(<RouterProvider={router} />);
+).render(<RouterProvider router={router} />);
