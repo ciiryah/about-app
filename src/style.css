@@ -6,24 +6,15 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  background-color: #022f47; /*#33457f;*/
 }
 
 .container {
-  max-width: 26rem;
+  max-width: 48rem;
   margin-right: auto;
   margin-left: auto;
+  background-color: #8ecae6; /*#bbcaff;*/
+  border-radius: 1rem;
+  //border: 1px solid magenta;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
-
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
-}
