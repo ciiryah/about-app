@@ -4,8 +4,8 @@ header {
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
-    //border:  1px solid yellow;
 }
+
 .app-logo {
     font-family: "Barrio", sans-serif;
     color: #ffb703; /*#ffa500;*/
@@ -19,7 +19,6 @@ header {
     font-size: 30px;
     font-family: "Amatic SC",  sans-serif;
     margin-bottom: 20px;
-   //border: 1px solid cyan
 }
 
 nav {
@@ -34,6 +33,5 @@ nav {
     font-size: 30px;
     font-weight: bold;
     font-family: "Amatic SC",  sans-serif;
-    //border: 1px solid red;
 }
 
