@@ -6,7 +6,11 @@ import { ErrorPage } from "./pages/ErrorPage";
 import { HomePage } from "./pages/HomePage";
 
 const App = () => {
-  return <Outlet />;
+  return (
+    <>
+      <Outlet />
+    </>
+  );
 };
 
 const router = createBrowserRouter([
@@ -17,11 +21,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <HomePage />, //přepsat na <HomePage /> až bude hotová
+        element: <HomePage />,
       },
       {
         path: "about",
-        element: <App />, //přepsat na <AboutPage /> až bude hotová
+        element: <AboutPage />,
       },
     ],
   },
