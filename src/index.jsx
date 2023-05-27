@@ -4,6 +4,7 @@ import "./style.css";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { ErrorPage } from "./pages/ErrorPage";
 import { HomePage } from "./pages/HomePage";
+import { AboutPage } from "./pages/AboutPage";
 
 const App = () => {
   return (
