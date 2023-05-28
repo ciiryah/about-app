@@ -45,6 +45,7 @@ export const AboutPage = () => {
                             <h4>Kamila Semotánová</h4>
                             <button className="btn moreInfoBtn" onClick={() => {handleClick("kami")}}>Více o mě</button>
                         </div>
+                        </div>
                     </>
                     )}
                     {click === "kami" && (
