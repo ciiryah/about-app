@@ -1,0 +1,40 @@
+main {
+  padding-bottom: 52px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.medailon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.medailons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.moreInfoBtn {
+  background-color: #ffb703;
+  font-size: 17px;
+  font-family: "Amatic SC", sans-serif;
+  border: none;
+  border-radius: 30px;
+  width: 8rem;
+}
+
+.picture {
+  width: 20%;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+}
+
+.mainText {
+  padding: 2%;
+}
