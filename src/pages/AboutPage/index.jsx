@@ -43,13 +43,13 @@ export const AboutPage = () => {
           </>)}
           {click === "kami" && (
             <>
+              <button onClick={handleClose} className="btn closeBtn">Zpět</button>
               <AboutKami/>
-              <button onClick={handleClose} className="btn">Zpět</button>
             </>)}
           {click === "zuzka" && (
             <>
+              <button onClick={handleClose}className="btn closeBtn">Zpět</button>
               <AboutZuzka/>
-              <button onClick={handleClose}className="btn">Zpět</button>
             </>)}
         </div>
       </main>

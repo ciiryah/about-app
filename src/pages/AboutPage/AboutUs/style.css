@@ -10,3 +10,11 @@
   margin: 0.75rem;
 }
 
+.detailContainer {
+  width: 70%;
+  margin: auto;
+}
+
+.nameDetail {
+  text-transform: uppercase;
+}

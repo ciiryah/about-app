@@ -33,6 +33,12 @@
   width: 8rem
 }
 
+.closeBtn {
+  position: relative;
+  right: -20rem;
+  margin-top: 10px;
+}
+
 .picture {
   width: 30%;
   aspect-ratio: 1/1;
