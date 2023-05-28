@@ -6,17 +6,17 @@ import { AboutKami } from "./AboutUs";
 import { AboutZuzka } from "./AboutUs";
 
 export const AboutPage = () => {
-    const [click, setClick] = useState(null);
+  const [click, setClick] = useState(null);
 
-    const handleClick = (name) => {
-        setClick(name);
-        console.log(name);
-    };
+  const handleClick = (name) => {
+    setClick(name);
+    console.log(name);
+  };
 
-    const handleClose = (event) => {
-        event.preventDefault();
-        setClick(null);
-    };
+  const handleClose = (event) => {
+    event.preventDefault();
+    setClick(null);
+  };
 
     return (
         <div className="container">
