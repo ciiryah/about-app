@@ -1,18 +1,14 @@
 .paragraph {
     padding: 0px 30px;
     color: #022f47;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.pictureabout {
-    width: 100%;
-    /* border: 2px solid blue; */
-    display: block;
-    margin-top: 20px;
-}
+
 
 .popisek {
     text-align: center;
-    /* border: 2px solid red; */
     color:rgba(0, 0, 0, 0.3);
     font-size: 12px;
     font-weight: bold;
