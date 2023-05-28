@@ -9,7 +9,9 @@ export const ErrorPage = () => {
     <div className="container">
       <Header />
       <main>
-        <div className="error">404: Bylo tu, není tu, a bohdá ani nebude.</div>
+        <div className="error">
+          404: Nebylo tu, není tu, a bohdá ani nebude.
+        </div>
       </main>
       <Footer />
     </div>

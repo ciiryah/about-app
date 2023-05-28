@@ -6,23 +6,23 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 1em;
 }
 
 .app-logo {
     font-family: "Barrio", sans-serif;
     color: #ffb703;
     /*#ffa500;*/
-    font-size: 60px;
+    font-size: 3.8em;
     margin-bottom: 0;
     font-weight: lighter;
 }
 
 .slogan {
     color: #ffb703;
-    font-size: 30px;
+    font-size: 1.7em;
     font-family: "Amatic SC", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 2.2em;
 }
 
 nav {
@@ -30,6 +30,7 @@ nav {
     background-color: #219ebc;
     border-radius: 1em 1em 0em 0em;
     text-align: center;
+    padding: 0.4em;
 }
 
 .pending {
