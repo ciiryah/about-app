@@ -20,6 +20,7 @@ export const HomePage = () => {
           text={materials.stretchGoals.text}
         />
         <img className="pictureabout" src={require("./img/figma.png")} />
+        <p className="popisek text">Model aplikace ve Figmě</p>
         <Paragraph
           heading={materials.figma.heading}
           text={materials.figma.text}

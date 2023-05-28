@@ -6,21 +6,6 @@
 }
 
 
-
-.popisek {
-    text-align: center;
-    color:rgba(0, 0, 0, 0.3);
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Raleway', 'sans-serif';
-}
-
-.text {
-    font-weight: lighter;
-    margin: 10px 0;
-}
-
-
 .nadpis {
     margin: 30px 0px 40px 30px;
     font-family: 'Amatic SC', sans-serif;

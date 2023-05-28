@@ -1,5 +1,7 @@
 header {
-    background-color: #04293b;
+    background: url("img/flaskbcg.jpeg") #04293b;
+    background-position: center center;
+    background-size: cover;
     /*#33457f;*/
     display: flex;
     flex-direction: column;
@@ -18,7 +20,6 @@ header {
 
 .slogan {
     color: #ffb703;
-    ;
     font-size: 30px;
     font-family: "Amatic SC", sans-serif;
     margin-bottom: 20px;
