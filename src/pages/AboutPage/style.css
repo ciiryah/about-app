@@ -20,13 +20,17 @@
   justify-content: space-evenly;
 }
 
-.moreInfoBtn {
+.btn {
   background-color: #ffb703;
   font-size: 17px;
   font-family: "Amatic SC", sans-serif;
   border: none;
   border-radius: 30px;
-  width: 8rem;
+  width: 5rem;
+}
+
+.moreInfoBtn {
+  width: 8rem
 }
 
 .picture {

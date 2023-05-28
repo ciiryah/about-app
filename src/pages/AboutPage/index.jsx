@@ -31,25 +31,25 @@ export const AboutPage = () => {
               <div className="medailon">
                 <img src={require("./img/susanne.jpg")} alt="Zuzka" className="picture" />
                 <h4>Susanne Krkoška</h4>
-                <button className="moreInfoBtn"
+                <button className="btn moreInfoBtn"
                 onClick={() => {handleClick("zuzka")}}>Více o mě</button>
               </div>
               <div className="medailon">
                 <img src={require("./img/kamila.jpeg")} alt="Kamča" className="picture"/>
                 <h4>Kamila Semotánová</h4>
-                <button className="moreInfoBtn" onClick={() => {handleClick("kami")}}>Více o mě</button>
+                <button className="btn moreInfoBtn" onClick={() => {handleClick("kami")}}>Více o mě</button>
               </div>
             </div>
           </>)}
           {click === "kami" && (
             <>
               <AboutKami/>
-              <button onClick={handleClose}>Zpět</button>
+              <button onClick={handleClose} className="btn">Zpět</button>
             </>)}
           {click === "zuzka" && (
             <>
               <AboutZuzka/>
-              <button onClick={handleClose}>Zpět</button>
+              <button onClick={handleClose}className="btn">Zpět</button>
             </>)}
         </div>
       </main>
