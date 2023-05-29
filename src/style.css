@@ -19,10 +19,11 @@ body {
 }
 
 .container {
-  max-width: 48rem;
+  max-width: 48em;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 1em;
   background-color: #8ecae6; /*#bbcaff;*/
-  border-radius: 1rem;
+  border-radius: 1em;
 }
 

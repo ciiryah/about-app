@@ -48,7 +48,13 @@ export const AboutZuzka = () => {
         className="pictureDetail"
       />
       <h3 className="nameDetail">Susanne Krkoška</h3>
-      <p>Text o mně</p>
+      <p>Říkejte mi Zuzka.</p>
+      <p>
+        Vystudovala jsem chemii a děsně ráda o tom mluvím, abych se cítila
+        důležitě. I když nemám takový profesní přesah jako Kamča, bůh ví, že mě
+        v laborce naučili jak dělat troubleshooting. Mou nejsilnější stránkou je
+        cílevědomost a občas taky tvrdohlavost hraničící až s diagnózou.
+      </p>
       <div>
         <a href="https://github.com/ciiryah" target="_blank">
           <img

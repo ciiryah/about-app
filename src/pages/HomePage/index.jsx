@@ -16,14 +16,14 @@ export const HomePage = () => {
         />
         <Paragraph
           middle
-          heading={materials.stretchGoals.heading}
-          text={materials.stretchGoals.text}
+          heading={materials.layout.heading}
+          text={materials.layout.text}
         />
         <img className="pictureabout" src={require("./img/figma.png")} />
         <p className="popisek text">Model aplikace ve Figmě</p>
         <Paragraph
-          heading={materials.figma.heading}
-          text={materials.figma.text}
+          heading={materials.stretchGoals.heading}
+          text={materials.stretchGoals.text}
         />
       </main>
       <Footer />
