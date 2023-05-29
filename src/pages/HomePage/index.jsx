@@ -21,6 +21,16 @@ export const HomePage = () => {
         />
         <img className="pictureabout" src={require("./img/figma.png")} />
         <p className="popisek text">Model aplikace ve Figmě</p>
+        <a
+          href="https://www.figma.com/proto/0eKlEm6gKQaQQUtpBzlv4n/Project_mixing?node-id=8-29&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A29"
+          target="_blank"
+        >
+          <img
+            src={require("./img/figma-ar21.svg")}
+            alt="LinkedInLogo"
+            className="logoFigma"
+          />
+        </a>
         <Paragraph
           heading={materials.stretchGoals.heading}
           text={materials.stretchGoals.text}

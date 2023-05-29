@@ -6,7 +6,7 @@
 
 .popisek {
     text-align: center;
-    color:rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
     font-size: 12px;
     font-weight: bold;
     font-family: 'Raleway', 'sans-serif';
@@ -17,4 +17,7 @@
     margin: 10px 0;
 }
 
-
+.logoFigma {
+    height: 2.5rem;
+    margin-left: 45%;
+}
